@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .container {
+    padding: 30px;
+    text-align: center;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Koyar Qasm</h1>
+  <nav>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'about' %}">About</a>
+    <a href="{% url 'portfolio' %}">Portfolio</a>
+    <a href="{% url 'experience' %}">Experience</a>
+    <a href="{% url 'contact' %}">Contact</a>
+  </nav>
+</header>
+
+<div class="container">
+  <h2>About Me</h2>
+  <p>Skills:<br>
+	•	 Java<br>
+	•	 Python<br>
+	•	 Design<br>
+	•	 Photography<br>
+	•	 Microsoft Word<br>
+	•	 HTML<br>
+	•	 CSS<br>
+    <br>
+⸻
+<br>
+Languages:<br>
+	•	 Kurdish: Advanced<br>
+	•	 English: Intermediate<br>
+	•	 Arabic: Intermediate</p>
+</div>
+
+<footer>
+  <p>&copy; 2025 Koyar Qasm</p>
+</footer>
+
+</body>
+</html>
